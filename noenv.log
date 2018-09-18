@@ -1,0 +1,364 @@
+execve("build/exe.linux-x86_64-3.6/theapp", ["build/exe.linux-x86_64-3.6/theap"...], [/* 8 vars */]) = 0
+brk(0)                                  = 0x555f83bc1000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f770519a000
+readlink("/proc/self/exe", "/project/build/exe.linux-x86_64-"..., 4096) = 42
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/tls/x86_64", 0x7ffd8f025da0) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/tls", 0x7ffd8f025da0) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/x86_64", 0x7ffd8f025da0) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/../lib/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/../lib/tls/x86_64", 0x7ffd8f025da0) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/../lib/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/../lib/tls", 0x7ffd8f025da0) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/../lib/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/../lib/x86_64", 0x7ffd8f025da0) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/../lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/../lib", 0x7ffd8f025da0) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=6938, ...}) = 0
+mmap(NULL, 6938, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7705198000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320n\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=137384, ...}) = 0
+mmap(NULL, 2213008, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7704d5f000
+mprotect(0x7f7704d77000, 2093056, PROT_NONE) = 0
+mmap(0x7f7704f76000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f7704f76000
+mmap(0x7f7704f78000, 13456, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7704f78000
+close(3)                                = 0
+open("/project/build/exe.linux-x86_64-3.6/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7705197000
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7704b5b000
+mprotect(0x7f7704b5e000, 2093056, PROT_NONE) = 0
+mmap(0x7f7704d5d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f7704d5d000
+close(3)                                = 0
+open("/project/build/exe.linux-x86_64-3.6/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\17\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10680, ...}) = 0
+mmap(NULL, 2105624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7704958000
+mprotect(0x7f770495a000, 2093056, PROT_NONE) = 0
+mmap(0x7f7704b59000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f7704b59000
+close(3)                                = 0
+open("/project/build/exe.linux-x86_64-3.6/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200U\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1051056, ...}) = 0
+mmap(NULL, 3146072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7704657000
+mprotect(0x7f7704757000, 2093056, PROT_NONE) = 0
+mmap(0x7f7704956000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xff000) = 0x7f7704956000
+close(3)                                = 0
+open("/project/build/exe.linux-x86_64-3.6/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\34\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1738176, ...}) = 0
+mmap(NULL, 3844640, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f77042ac000
+mprotect(0x7f770444d000, 2097152, PROT_NONE) = 0
+mmap(0x7f770464d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a1000) = 0x7f770464d000
+mmap(0x7f7704653000, 14880, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7704653000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7705196000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7705195000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7705194000
+arch_prctl(ARCH_SET_FS, 0x7f7705195700) = 0
+mprotect(0x7f770464d000, 16384, PROT_READ) = 0
+mprotect(0x7f7704956000, 4096, PROT_READ) = 0
+mprotect(0x7f7704b59000, 4096, PROT_READ) = 0
+mprotect(0x7f7704d5d000, 4096, PROT_READ) = 0
+mprotect(0x7f7704f76000, 4096, PROT_READ) = 0
+mprotect(0x555f81b9f000, 12288, PROT_READ) = 0
+mprotect(0x7f770519c000, 4096, PROT_READ) = 0
+munmap(0x7f7705198000, 6938)            = 0
+set_tid_address(0x7f77051959d0)         = 95
+set_robust_list(0x7f77051959e0, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7f7704d659b0, [], SA_RESTORER|SA_SIGINFO, 0x7f7704d6e890}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f7704d65a40, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f7704d6e890}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+getcwd("/project", 4096)                = 9
+lstat("/project/build", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/project/build/exe.linux-x86_64-3.6/theapp", {st_mode=S_IFREG|0755, st_size=2713808, ...}) = 0
+brk(0)                                  = 0x555f83bc1000
+brk(0x555f83be2000)                     = 0x555f83be2000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7705154000
+syscall_318(0x555f81c37d20, 0x18, 0x1, 0, 0x6f00000072, 0x24b5251e) = 0x18
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7705114000
+fstat(0, {st_mode=S_IFCHR|0600, st_rdev=makedev(136, 9), ...}) = 0
+brk(0x555f83c04000)                     = 0x555f83c04000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f77050d4000
+open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7705199000
+read(3, "MemTotal:       16304632 kB\nMemF"..., 1024) = 1024
+close(3)                                = 0
+munmap(0x7f7705199000, 4096)            = 0
+brk(0x555f83c25000)                     = 0x555f83c25000
+sigaltstack({ss_sp=0x555f83bddc60, ss_flags=0, ss_size=8192}, {ss_sp=0, ss_flags=SS_DISABLE, ss_size=0}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/library.zip", {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7705199000
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+lseek(3, 806912, SEEK_SET)              = 806912
+read(3, "M\257\37\253\251\307\16\0\0& \0\0\t\0\0\0\0\0\0\0\0\0\0\0\200\1\33y\v\0t"..., 324) = 324
+read(3, "PK\5\6\0\0\0\0i\0i\0\231\27\0\0\2539\f\0\0\0", 4096) = 22
+lseek(3, 798720, SEEK_SET)              = 798720
+read(3, "N\355\363\216\354\363\332\303\324\217\220f\204\323\254\326\f\214\212\24\3573\363\21\330\262\0\234\260\342\272\332"..., 4096) = 4096
+read(3, "\0\0\0\0\0\200\1\357\21\2\0copyreg.pycPK\1\2\24\3\24\0\0\0"..., 4096) = 4096
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7705094000
+read(3, "M\257\37\253\251\307\16\0\0& \0\0\t\0\0\0\0\0\0\0\0\0\0\0\200\1\33y\v\0t"..., 4096) = 346
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f7705199000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/project/build/exe.linux-x86_64-3.6/lib", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 57 entries */, 32768)    = 2952
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7ffd8f025ab0) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings/__init__.abi3.so", 0x7ffd8f025ab0) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings/__init__.so", 0x7ffd8f025ab0) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings/__init__.py", 0x7ffd8f025ab0) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings/__init__.pyc", {st_mode=S_IFREG|0644, st_size=3959, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/encodings/__init__.pyc", O_RDONLY|O_CLOEXEC) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(3, {st_mode=S_IFREG|0644, st_size=3959, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3959, ...}) = 0
+read(3, "3\r\r\nKP\233[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0@\0\0"..., 3960) = 3959
+read(3, "", 1)                          = 0
+close(3)                                = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7705199000
+lseek(3, 110592, SEEK_SET)              = 110592
+read(3, "\357\364\201r7\f\311\350I%\311Q|\242\306\n\22\206\205\214\4\200\341W\266{g\3056F\343\20"..., 3354) = 3354
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\24\341'\3/*\0\0\211\204\0\0\n\0\0\0co"..., 4096) = 4096
+lseek(3, 118042, SEEK_SET)              = 118042
+read(3, "pC\207\264+#\241]=\200q\316\360D\311/7L\214w\206\343!\214y\206\273\25\214{\206\375"..., 4096) = 4096
+read(3, "\201\366\245W=F\26qIEj98\251|=\237h\261Tb\367\240\377\245u\276\34\r,\321)"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f7705199000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/zlib.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=102624, ...}) = 0
+futex(0x7f7704d5e0c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/zlib.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=102624, ...}) = 0
+mmap(NULL, 2128512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f77040a4000
+mprotect(0x7f77040a9000, 2097152, PROT_NONE) = 0
+mmap(0x7f77042a9000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7f77042a9000
+close(3)                                = 0
+open("/home/vuser/.pyenv/versions/3.6.6/lib/tls/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/vuser/.pyenv/versions/3.6.6/lib/tls/x86_64", 0x7ffd8f022d00) = -1 ENOENT (No such file or directory)
+open("/home/vuser/.pyenv/versions/3.6.6/lib/tls/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/vuser/.pyenv/versions/3.6.6/lib/tls", 0x7ffd8f022d00) = -1 ENOENT (No such file or directory)
+open("/home/vuser/.pyenv/versions/3.6.6/lib/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/vuser/.pyenv/versions/3.6.6/lib/x86_64", 0x7ffd8f022d00) = -1 ENOENT (No such file or directory)
+open("/home/vuser/.pyenv/versions/3.6.6/lib/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/vuser/.pyenv/versions/3.6.6/lib", 0x7ffd8f022d00) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=6938, ...}) = 0
+mmap(NULL, 6938, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7705198000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=109144, ...}) = 0
+mmap(NULL, 2204200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7703e89000
+mprotect(0x7f7703ea3000, 2093056, PROT_NONE) = 0
+mmap(0x7f77040a2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7f77040a2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/tls/x86_64/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/tls/x86_64", 0x7ffd8f022cd0) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/tls/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/tls", 0x7ffd8f022cd0) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/x86_64/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/x86_64", 0x7ffd8f022cd0) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/x86_64-linux-gnu/tls/x86_64/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/tls/x86_64", 0x7ffd8f022cd0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/tls/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/tls", 0x7ffd8f022cd0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/x86_64/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/x86_64", 0x7ffd8f022cd0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/lib/tls/x86_64/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/tls/x86_64", 0x7ffd8f022cd0) = -1 ENOENT (No such file or directory)
+open("/lib/tls/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/tls", 0x7ffd8f022cd0)        = -1 ENOENT (No such file or directory)
+open("/lib/x86_64/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64", 0x7ffd8f022cd0)     = -1 ENOENT (No such file or directory)
+open("/lib/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/tls/x86_64/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/tls/x86_64", 0x7ffd8f022cd0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/tls/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/tls", 0x7ffd8f022cd0)    = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64", 0x7ffd8f022cd0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+munmap(0x7f7705198000, 6938)            = 0
+munmap(0x7f77040a4000, 2128512)         = 0
+munmap(0x7f7703e89000, 2204200)         = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7705199000
+lseek(3, 110592, SEEK_SET)              = 110592
+read(3, "\357\364\201r7\f\311\350I%\311Q|\242\306\n\22\206\205\214\4\200\341W\266{g\3056F\343\20"..., 3354) = 3354
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\24\341'\3/*\0\0\211\204\0\0\n\0\0\0co"..., 4096) = 4096
+lseek(3, 118042, SEEK_SET)              = 118042
+read(3, "pC\207\264+#\241]=\200q\316\360D\311/7L\214w\206\343!\214y\206\273\25\214{\206\375"..., 4096) = 4096
+read(3, "\201\366\245W=F\26qIEj98\251|=\237h\261Tb\367\240\377\245u\276\34\r,\321)"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f7705199000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/zlib.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=102624, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/zlib.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=102624, ...}) = 0
+mmap(NULL, 2128512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f77040a4000
+mprotect(0x7f77040a9000, 2097152, PROT_NONE) = 0
+mmap(0x7f77042a9000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7f77042a9000
+close(3)                                = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=6938, ...}) = 0
+mmap(NULL, 6938, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7705198000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=109144, ...}) = 0
+mmap(NULL, 2204200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7703e89000
+mprotect(0x7f7703ea3000, 2093056, PROT_NONE) = 0
+mmap(0x7f77040a2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7f77040a2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f7705198000, 6938)            = 0
+munmap(0x7f77040a4000, 2128512)         = 0
+munmap(0x7f7703e89000, 2204200)         = 0
+write(2, "Fatal Python error: Py_Initializ"..., 69Fatal Python error: Py_Initialize: Unable to get the locale encoding
+) = 69
+write(2, "Traceback (most recent call last"..., 35Traceback (most recent call last):
+) = 35
+write(2, "  File \"/home/vuser/.pyenv/versi"..., 101  File "/home/vuser/.pyenv/versions/3.6.6/lib/python3.6/encodings/__init__.py", line 31, in <module>
+) = 101
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7705199000
+lseek(3, 307200, SEEK_SET)              = 307200
+read(3, "\340\270N\4\337\261\200\357\223\257\234a\315\231<\35\374\7\356c\20\336\321\3121\244RO\236\6\310\220"..., 377) = 377
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\304O\271\376\337\6\0\0X\r\0\0\6\0\0\0io"..., 4096) = 4096
+lseek(3, 311673, SEEK_SET)              = 311673
+close(3)                                = 0
+munmap(0x7f7705199000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/zlib.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=102624, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/zlib.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=102624, ...}) = 0
+mmap(NULL, 2128512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f77040a4000
+mprotect(0x7f77040a9000, 2097152, PROT_NONE) = 0
+mmap(0x7f77042a9000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7f77042a9000
+close(3)                                = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=6938, ...}) = 0
+mmap(NULL, 6938, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7705198000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=109144, ...}) = 0
+mmap(NULL, 2204200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7703e89000
+mprotect(0x7f7703ea3000, 2093056, PROT_NONE) = 0
+mmap(0x7f77040a2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7f77040a2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f7705198000, 6938)            = 0
+munmap(0x7f77040a4000, 2128512)         = 0
+munmap(0x7f7703e89000, 2204200)         = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7705199000
+lseek(3, 307200, SEEK_SET)              = 307200
+read(3, "\340\270N\4\337\261\200\357\223\257\234a\315\231<\35\374\7\356c\20\336\321\3121\244RO\236\6\310\220"..., 377) = 377
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\304O\271\376\337\6\0\0X\r\0\0\6\0\0\0io"..., 4096) = 4096
+lseek(3, 311673, SEEK_SET)              = 311673
+close(3)                                = 0
+munmap(0x7f7705199000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/zlib.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=102624, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/zlib.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=102624, ...}) = 0
+mmap(NULL, 2128512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f77040a4000
+mprotect(0x7f77040a9000, 2097152, PROT_NONE) = 0
+mmap(0x7f77042a9000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7f77042a9000
+close(3)                                = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=6938, ...}) = 0
+mmap(NULL, 6938, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7705198000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=109144, ...}) = 0
+mmap(NULL, 2204200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7703e89000
+mprotect(0x7f7703ea3000, 2093056, PROT_NONE) = 0
+mmap(0x7f77040a2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7f77040a2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f7705198000, 6938)            = 0
+munmap(0x7f77040a4000, 2128512)         = 0
+munmap(0x7f7703e89000, 2204200)         = 0
+write(2, "zipimport", 9zipimport)                = 9
+write(2, ".", 1.)                        = 1
+write(2, "ZipImportError", 14ZipImportError)          = 14
+write(2, ": ", 2: )                       = 2
+write(2, "can't decompress data; zlib not "..., 41can't decompress data; zlib not available) = 41
+write(2, "\n", 1
+)                       = 1
+sigaltstack(NULL, {ss_sp=0x555f83bddc60, ss_flags=0, ss_size=8192}) = 0
+sigaltstack({ss_sp=0, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+rt_sigprocmask(SIG_UNBLOCK, [ABRT], NULL, 8) = 0
+tgkill(95, 95, SIGABRT)                 = 0
+--- SIGABRT {si_signo=SIGABRT, si_code=SI_TKILL, si_pid=95, si_uid=0} ---
++++ killed by SIGABRT (core dumped) +++

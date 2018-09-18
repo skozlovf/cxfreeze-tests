@@ -1,0 +1,1409 @@
+execve("build/exe.linux-x86_64-3.6/theapp", ["build/exe.linux-x86_64-3.6/theap"...], [/* 9 vars */]) = 0
+brk(0)                                  = 0x557406404000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e3a0000
+readlink("/proc/self/exe", "/project/build/exe.linux-x86_64-"..., 4096) = 42
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/tls/x86_64", 0x7fff7a6288f0) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/tls", 0x7fff7a6288f0) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/x86_64", 0x7fff7a6288f0) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/../lib/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/../lib/tls/x86_64", 0x7fff7a6288f0) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/../lib/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/../lib/tls", 0x7fff7a6288f0) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/../lib/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/../lib/x86_64", 0x7fff7a6288f0) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/../lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/../lib", 0x7fff7a6288f0) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=6938, ...}) = 0
+mmap(NULL, 6938, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f129e39e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320n\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=137384, ...}) = 0
+mmap(NULL, 2213008, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f129df65000
+mprotect(0x7f129df7d000, 2093056, PROT_NONE) = 0
+mmap(0x7f129e17c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f129e17c000
+mmap(0x7f129e17e000, 13456, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f129e17e000
+close(3)                                = 0
+open("build/exe.linux-x86_64-3.6/lib/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39d000
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f129dd61000
+mprotect(0x7f129dd64000, 2093056, PROT_NONE) = 0
+mmap(0x7f129df63000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f129df63000
+close(3)                                = 0
+open("build/exe.linux-x86_64-3.6/lib/tls/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/tls/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\17\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10680, ...}) = 0
+mmap(NULL, 2105624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f129db5e000
+mprotect(0x7f129db60000, 2093056, PROT_NONE) = 0
+mmap(0x7f129dd5f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f129dd5f000
+close(3)                                = 0
+open("build/exe.linux-x86_64-3.6/lib/tls/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200U\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1051056, ...}) = 0
+mmap(NULL, 3146072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f129d85d000
+mprotect(0x7f129d95d000, 2093056, PROT_NONE) = 0
+mmap(0x7f129db5c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xff000) = 0x7f129db5c000
+close(3)                                = 0
+open("build/exe.linux-x86_64-3.6/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/project/build/exe.linux-x86_64-3.6/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\34\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1738176, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39c000
+mmap(NULL, 3844640, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f129d4b2000
+mprotect(0x7f129d653000, 2097152, PROT_NONE) = 0
+mmap(0x7f129d853000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a1000) = 0x7f129d853000
+mmap(0x7f129d859000, 14880, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f129d859000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39b000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39a000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e399000
+arch_prctl(ARCH_SET_FS, 0x7f129e39a700) = 0
+mprotect(0x7f129d853000, 16384, PROT_READ) = 0
+mprotect(0x7f129db5c000, 4096, PROT_READ) = 0
+mprotect(0x7f129dd5f000, 4096, PROT_READ) = 0
+mprotect(0x7f129df63000, 4096, PROT_READ) = 0
+mprotect(0x7f129e17c000, 4096, PROT_READ) = 0
+mprotect(0x557404a71000, 12288, PROT_READ) = 0
+mprotect(0x7f129e3a2000, 4096, PROT_READ) = 0
+munmap(0x7f129e39e000, 6938)            = 0
+set_tid_address(0x7f129e39a9d0)         = 91
+set_robust_list(0x7f129e39a9e0, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7f129df6b9b0, [], SA_RESTORER|SA_SIGINFO, 0x7f129df74890}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f129df6ba40, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f129df74890}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+getcwd("/project", 4096)                = 9
+lstat("/project/build", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/project/build/exe.linux-x86_64-3.6/theapp", {st_mode=S_IFREG|0755, st_size=2713808, ...}) = 0
+brk(0)                                  = 0x557406404000
+brk(0x557406425000)                     = 0x557406425000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e359000
+syscall_318(0x557404b09d20, 0x18, 0x1, 0, 0x6f00000072, 0x24b5251e) = 0x18
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e319000
+fstat(0, {st_mode=S_IFCHR|0600, st_rdev=makedev(136, 9), ...}) = 0
+brk(0x557406447000)                     = 0x557406447000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e2d9000
+open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+read(3, "MemTotal:       16304632 kB\nMemF"..., 1024) = 1024
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+brk(0x557406468000)                     = 0x557406468000
+sigaltstack({ss_sp=0x557406420c60, ss_flags=0, ss_size=8192}, {ss_sp=0, ss_flags=SS_DISABLE, ss_size=0}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/library.zip", {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+lseek(3, 806912, SEEK_SET)              = 806912
+read(3, "M\257\37\253\251\307\16\0\0& \0\0\t\0\0\0\0\0\0\0\0\0\0\0\200\1\33y\v\0t"..., 324) = 324
+read(3, "PK\5\6\0\0\0\0i\0i\0\231\27\0\0\2539\f\0\0\0", 4096) = 22
+lseek(3, 798720, SEEK_SET)              = 798720
+read(3, "N\355\363\216\354\363\332\303\324\217\220f\204\323\254\326\f\214\212\24\3573\363\21\330\262\0\234\260\342\272\332"..., 4096) = 4096
+read(3, "\0\0\0\0\0\200\1\357\21\2\0copyreg.pycPK\1\2\24\3\24\0\0\0"..., 4096) = 4096
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e299000
+read(3, "M\257\37\253\251\307\16\0\0& \0\0\t\0\0\0\0\0\0\0\0\0\0\0\200\1\33y\v\0t"..., 4096) = 346
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/project/build/exe.linux-x86_64-3.6/lib", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 57 entries */, 32768)    = 2952
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7fff7a628600) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings/__init__.abi3.so", 0x7fff7a628600) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings/__init__.so", 0x7fff7a628600) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings/__init__.py", 0x7fff7a628600) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings/__init__.pyc", {st_mode=S_IFREG|0644, st_size=3959, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/encodings/__init__.pyc", O_RDONLY|O_CLOEXEC) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(3, {st_mode=S_IFREG|0644, st_size=3959, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3959, ...}) = 0
+read(3, "3\r\r\nKP\233[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0@\0\0"..., 3960) = 3959
+read(3, "", 1)                          = 0
+close(3)                                = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 110592, SEEK_SET)              = 110592
+read(3, "\357\364\201r7\f\311\350I%\311Q|\242\306\n\22\206\205\214\4\200\341W\266{g\3056F\343\20"..., 3354) = 3354
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\24\341'\3/*\0\0\211\204\0\0\n\0\0\0co"..., 4096) = 4096
+lseek(3, 118042, SEEK_SET)              = 118042
+read(3, "pC\207\264+#\241]=\200q\316\360D\311/7L\214w\206\343!\214y\206\273\25\214{\206\375"..., 4096) = 4096
+read(3, "\201\366\245W=F\26qIEj98\251|=\237h\261Tb\367\240\377\245u\276\34\r,\321)"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/zlib.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=102624, ...}) = 0
+futex(0x7f129df640c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/zlib.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=102624, ...}) = 0
+mmap(NULL, 2128512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f129d2aa000
+mprotect(0x7f129d2af000, 2097152, PROT_NONE) = 0
+mmap(0x7f129d4af000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7f129d4af000
+close(3)                                = 0
+open("build/exe.linux-x86_64-3.6/lib/tls/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/tls/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=105088, ...}) = 0
+getcwd("/project", 128)                 = 9
+mmap(NULL, 2200072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f129d090000
+mprotect(0x7f129d0a9000, 2093056, PROT_NONE) = 0
+mmap(0x7f129d2a8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7f129d2a8000
+close(3)                                = 0
+open("build/exe.linux-x86_64-3.6/lib/tls/x86_64/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/tls/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/x86_64/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\37\6\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0555, st_size=11007960, ...}) = 0
+getcwd("/project", 128)                 = 9
+mmap(NULL, 5097544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f129cbb3000
+mprotect(0x7f129cdf6000, 2097152, PROT_NONE) = 0
+mmap(0x7f129cff6000, 430080, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x243000) = 0x7f129cff6000
+mmap(0x7f129d05f000, 198728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f129d05f000
+close(3)                                = 0
+mprotect(0x7f129cff6000, 12288, PROT_READ) = 0
+mprotect(0x7f129d2a8000, 4096, PROT_READ) = 0
+mprotect(0x7f129d4af000, 4096, PROT_READ) = 0
+brk(0x557406493000)                     = 0x557406493000
+brk(0x55740648b000)                     = 0x55740648b000
+brk(0x557406483000)                     = 0x557406483000
+brk(0x55740646e000)                     = 0x55740646e000
+brk(0x55740646d000)                     = 0x55740646d000
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 110592, SEEK_SET)              = 110592
+read(3, "\357\364\201r7\f\311\350I%\311Q|\242\306\n\22\206\205\214\4\200\341W\266{g\3056F\343\20"..., 3354) = 3354
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\24\341'\3/*\0\0\211\204\0\0\n\0\0\0co"..., 4096) = 4096
+lseek(3, 118042, SEEK_SET)              = 118042
+read(3, "pC\207\264+#\241]=\200q\316\360D\311/7L\214w\206\343!\214y\206\273\25\214{\206\375"..., 4096) = 4096
+read(3, "\201\366\245W=F\26qIEj98\251|=\237h\261Tb\367\240\377\245u\276\34\r,\321)"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/project/build/exe.linux-x86_64-3.6/lib/encodings", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 127 entries */, 32768)   = 4488
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings/aliases.pyc", {st_mode=S_IFREG|0644, st_size=6303, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/encodings/aliases.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=6303, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=6303, ...}) = 0
+read(3, "3\r\r\nKP\233[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0D\1\0\0@\0\0"..., 6304) = 6303
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings/ascii.pyc", {st_mode=S_IFREG|0644, st_size=1891, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/encodings/ascii.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1891, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1891, ...}) = 0
+read(3, "3\r\r\nKP\233[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0@\0\0"..., 1892) = 1891
+read(3, "", 1)                          = 0
+close(3)                                = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER, 0x7f129df74890}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXFSZ, {SIG_IGN, [], SA_RESTORER, 0x7f129df74890}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGILL, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTRAP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGABRT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGBUS, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGFPE, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGKILL, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR1, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR2, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f129df74890}, 8) = 0
+rt_sigaction(SIGALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSTKFLT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCONT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSTOP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTSTP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTTIN, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTTOU, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGURG, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXCPU, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXFSZ, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f129df74890}, 8) = 0
+rt_sigaction(SIGVTALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPROF, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGIO, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPWR, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSYS, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_2, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_3, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_4, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_5, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_6, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_7, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_8, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_9, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_10, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_11, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_12, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_13, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_14, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_15, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_16, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_17, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_18, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_19, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_20, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_21, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_22, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_23, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_24, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_25, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_26, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_27, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_28, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_29, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_30, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_31, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_32, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {0x557404798af0, [], SA_RESTORER, 0x7f129df74890}, {SIG_DFL, [], 0}, 8) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings/utf_8.pyc", {st_mode=S_IFREG|0644, st_size=1621, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/encodings/utf_8.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1621, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1621, ...}) = 0
+read(3, "3\r\r\nKP\233[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 1622) = 1621
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/encodings/latin_1.pyc", {st_mode=S_IFREG|0644, st_size=1903, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/encodings/latin_1.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1903, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1903, ...}) = 0
+read(3, "3\r\r\nKP\233[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0@\0\0"..., 1904) = 1903
+read(3, "", 1)                          = 0
+close(3)                                = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 307200, SEEK_SET)              = 307200
+read(3, "\340\270N\4\337\261\200\357\223\257\234a\315\231<\35\374\7\356c\20\336\321\3121\244RO\236\6\310\220"..., 377) = 377
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\304O\271\376\337\6\0\0X\r\0\0\6\0\0\0io"..., 4096) = 4096
+lseek(3, 311673, SEEK_SET)              = 311673
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 307200, SEEK_SET)              = 307200
+read(3, "\340\270N\4\337\261\200\357\223\257\234a\315\231<\35\374\7\356c\20\336\321\3121\244RO\236\6\310\220"..., 377) = 377
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\304O\271\376\337\6\0\0X\r\0\0\6\0\0\0io"..., 4096) = 4096
+lseek(3, 311673, SEEK_SET)              = 311673
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 36864, SEEK_SET)               = 36864
+read(3, "\356\206\356\247\244E\327B\334h\1\205Q\n!\331\244>Sn\3432\253\27\35\204\225n\36\241\327\r"..., 3808) = 3808
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\313i-\363f\f\0\0x\35\0\0\7\0\0\0ab"..., 4096) = 4096
+lseek(3, 44768, SEEK_SET)               = 44768
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 36864, SEEK_SET)               = 36864
+read(3, "\356\206\356\247\244E\327B\334h\1\205Q\n!\331\244>Sn\3432\253\27\35\204\225n\36\241\327\r"..., 3808) = 3808
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\313i-\363f\f\0\0x\35\0\0\7\0\0\0ab"..., 4096) = 4096
+lseek(3, 44768, SEEK_SET)               = 44768
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 36864, SEEK_SET)               = 36864
+read(3, "\356\206\356\247\244E\327B\334h\1\205Q\n!\331\244>Sn\3432\253\27\35\204\225n\36\241\327\r"..., 1151) = 1151
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\4V\273\3744\n\0\0\261\36\0\0\17\0\0\0_w"..., 4096) = 4096
+lseek(3, 42111, SEEK_SET)               = 42111
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 36864, SEEK_SET)               = 36864
+read(3, "\356\206\356\247\244E\327B\334h\1\205Q\n!\331\244>Sn\3432\253\27\35\204\225n\36\241\327\r"..., 1151) = 1151
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\4V\273\3744\n\0\0\261\36\0\0\17\0\0\0_w"..., 4096) = 4096
+lseek(3, 42111, SEEK_SET)               = 42111
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e259000
+dup(0)                                  = 3
+close(3)                                = 0
+fstat(0, {st_mode=S_IFCHR|0600, st_rdev=makedev(136, 9), ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+dup(1)                                  = 3
+close(3)                                = 0
+fstat(1, {st_mode=S_IFREG|0644, st_size=30676, ...}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff7a629aa0) = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(1, 0, SEEK_CUR)                   = 30878
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff7a629de0) = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff7a629d40) = -1 ENOTTY (Inappropriate ioctl for device)
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "PK\3\4\24\0\0\0\10\0\362y2M\333\205\375_\325\0\0\0#\1\0\0\23\0\0\0BU"..., 2594) = 2594
+read(3, "PK\3\4\24\0\0\0\10\0\0041.MrDb\7\213\2\0\0\361\3\0\0\17\0\0\0_b"..., 4096) = 4096
+lseek(3, 6690, SEEK_SET)                = 6690
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "PK\3\4\24\0\0\0\10\0\362y2M\333\205\375_\325\0\0\0#\1\0\0\23\0\0\0BU"..., 2594) = 2594
+read(3, "PK\3\4\24\0\0\0\10\0\0041.MrDb\7\213\2\0\0\361\3\0\0\17\0\0\0_b"..., 4096) = 4096
+lseek(3, 6690, SEEK_SET)                = 6690
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+lseek(1, 0, SEEK_CUR)                   = 32458
+lseek(1, 0, SEEK_CUR)                   = 32506
+dup(2)                                  = 3
+close(3)                                = 0
+fstat(2, {st_mode=S_IFREG|0644, st_size=32631, ...}) = 0
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff7a629aa0) = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(2, 0, SEEK_CUR)                   = 32833
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff7a629de0) = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff7a629d40) = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(2, 0, SEEK_CUR)                   = 33149
+lseek(2, 0, SEEK_CUR)                   = 33197
+readlink("build/exe.linux-x86_64-3.6/theapp", 0x7fff7a6190a0, 4096) = -1 EINVAL (Invalid argument)
+getcwd("/project", 4096)                = 9
+lstat("/project/build", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/project/build/exe.linux-x86_64-3.6/theapp", {st_mode=S_IFREG|0755, st_size=2713808, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/project/build/exe.linux-x86_64-3.6", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+brk(0x557406491000)                     = 0x557406491000
+getdents(3, /* 4 entries */, 32768)     = 104
+getdents(3, /* 0 entries */, 32768)     = 0
+brk(0x557406489000)                     = 0x557406489000
+close(3)                                = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "PK\3\4\24\0\0\0\10\0\362y2M\333\205\375_\325\0\0\0#\1\0\0\23\0\0\0BU"..., 2203) = 2203
+read(3, "PK\3\4\24\0\0\0\10\0\346\31kJ:q\366\240Z\1\0\0\334\1\0\0\17\0\0\0__"..., 4096) = 4096
+lseek(3, 6299, SEEK_SET)                = 6299
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "PK\3\4\24\0\0\0\10\0\362y2M\333\205\375_\325\0\0\0#\1\0\0\23\0\0\0BU"..., 2203) = 2203
+read(3, "PK\3\4\24\0\0\0\10\0\346\31kJ:q\366\240Z\1\0\0\334\1\0\0\17\0\0\0__"..., 4096) = 4096
+lseek(3, 6299, SEEK_SET)                = 6299
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 389120, SEEK_SET)              = 389120
+read(3, "\241\344\315Ay\233\tG\26\341\0\1\353p\253Q\335\\\256\255\265\232-x\\^\346\376\303ZU9"..., 2404) = 2404
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\35k\201\303\25/\0\0\331s\0\0\6\0\0\0os"..., 4096) = 4096
+lseek(3, 395620, SEEK_SET)              = 395620
+read(3, "+\r\0\334KV=\201\201/\247\262\220\226\260\246\10\223\365W\344\255\26\272p`/\374V\333\36\255"..., 4096) = 4096
+read(3, "5\5\267\307\255\tD2S\253\333\244r\37}\372\351\247{\275^qU\33\2637\314W\357@\250\7"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 389120, SEEK_SET)              = 389120
+read(3, "\241\344\315Ay\233\tG\26\341\0\1\353p\253Q\335\\\256\255\265\232-x\\^\346\376\303ZU9"..., 2404) = 2404
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\35k\201\303\25/\0\0\331s\0\0\6\0\0\0os"..., 4096) = 4096
+lseek(3, 395620, SEEK_SET)              = 395620
+read(3, "+\r\0\334KV=\201\201/\247\262\220\226\260\246\10\223\365W\344\255\26\272p`/\374V\333\36\255"..., 4096) = 4096
+read(3, "5\5\267\307\255\tD2S\253\333\244r\37}\372\351\247{\275^qU\33\2637\314W\357@\250\7"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+mmap(NULL, 151552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e234000
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 630784, SEEK_SET)              = 630784
+read(3, "9\227\351\207\37AF\204k\337.\273w\2\243\344\200hy3\\\6\2wR\262*\20\31;\362\313"..., 3327) = 3327
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\305\31'\273\4\7\0\0(\17\0\0\10\0\0\0st"..., 4096) = 4096
+lseek(3, 638207, SEEK_SET)              = 638207
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 630784, SEEK_SET)              = 630784
+read(3, "9\227\351\207\37AF\204k\337.\273w\2\243\344\200hy3\\\6\2wR\262*\20\31;\362\313"..., 3327) = 3327
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\305\31'\273\4\7\0\0(\17\0\0\10\0\0\0st"..., 4096) = 4096
+lseek(3, 638207, SEEK_SET)              = 638207
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 471040, SEEK_SET)              = 471040
+read(3, "I\r\33\267&WRx`\250a.Z[\351fyf6\322qY:\25-\2\7\310\241>O\36"..., 2529) = 2529
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\273\233c\236\221\24\0\0\262(\0\0\r\0\0\0po"..., 4096) = 4096
+lseek(3, 477665, SEEK_SET)              = 477665
+read(3, "\326\230On)\223E\6j\n\325\344\257Q\302\341.\235\261\10\302\5^\347\3254$\302 \0306\317"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 471040, SEEK_SET)              = 471040
+read(3, "I\r\33\267&WRx`\250a.Z[\351fyf6\322qY:\25-\2\7\310\241>O\36"..., 2529) = 2529
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\273\233c\236\221\24\0\0\262(\0\0\r\0\0\0po"..., 4096) = 4096
+lseek(3, 477665, SEEK_SET)              = 477665
+read(3, "\326\230On)\223E\6j\n\325\344\257Q\302\341.\235\261\10\302\5^\347\3254$\302 \0306\317"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 237568, SEEK_SET)              = 237568
+read(3, "\274\f\16\226b\23_&\207fZ\240\336\360\"\245\16\231\247\307\245\355*6\216K\353\31\267\312\373\5"..., 1233) = 1233
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M7\204\333!\22\7\0\0\253\16\0\0\17\0\0\0ge"..., 4096) = 4096
+lseek(3, 242897, SEEK_SET)              = 242897
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 237568, SEEK_SET)              = 237568
+read(3, "\274\f\16\226b\23_&\207fZ\240\336\360\"\245\16\231\247\307\245\355*6\216K\353\31\267\312\373\5"..., 1233) = 1233
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M7\204\333!\22\7\0\0\253\16\0\0\17\0\0\0ge"..., 4096) = 4096
+lseek(3, 242897, SEEK_SET)              = 242897
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "PK\3\4\24\0\0\0\10\0\362y2M\333\205\375_\325\0\0\0#\1\0\0\23\0\0\0BU"..., 3290) = 3290
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\241\355:\367\0%\0\0\232p\0\0\24\0\0\0_c"..., 4096) = 4096
+lseek(3, 7386, SEEK_SET)                = 7386
+read(3, "\223i5'7N\313P\305m\216\361\34\320\215\7u\\g={\301Ye\260\324\326\32\260~Tj"..., 4096) = 4096
+read(3, "\207\270\205\35HG\372\33\244\250\377\300\302\316\205\236$i4\nz\313\224\373\372Zf\0\226\276\1="..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "PK\3\4\24\0\0\0\10\0\362y2M\333\205\375_\325\0\0\0#\1\0\0\23\0\0\0BU"..., 3290) = 3290
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\241\355:\367\0%\0\0\232p\0\0\24\0\0\0_c"..., 4096) = 4096
+lseek(3, 7386, SEEK_SET)                = 7386
+read(3, "\223i5'7N\313P\305m\216\361\34\320\215\7u\\g={\301Ye\260\324\326\32\260~Tj"..., 4096) = 4096
+read(3, "\207\270\205\35HG\372\33\244\250\377\300\302\316\205\236$i4\nz\313\224\373\372Zf\0\226\276\1="..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e1f4000
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 708608, SEEK_SET)              = 708608
+read(3, "\16<\37\257o\217\244\242L\316\231\247\256T\t\257\0\302\252%\202\253K\231\25\336Ba\377\220\206\v"..., 1427) = 1427
+read(3, "PK\3\4\24\0\0\0\10\0\346\31kJ\224\7\242\317\230\2\0\0\331\3\0\0\22\0\0\0th"..., 4096) = 4096
+lseek(3, 714131, SEEK_SET)              = 714131
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 708608, SEEK_SET)              = 708608
+read(3, "\16<\37\257o\217\244\242L\316\231\247\256T\t\257\0\302\252%\202\253K\231\25\336Ba\377\220\206\v"..., 1427) = 1427
+read(3, "PK\3\4\24\0\0\0\10\0\346\31kJ\224\7\242\317\230\2\0\0\331\3\0\0\22\0\0\0th"..., 4096) = 4096
+lseek(3, 714131, SEEK_SET)              = 714131
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/library.zip", {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 708608, SEEK_SET)              = 708608
+read(3, "\16<\37\257o\217\244\242L\316\231\247\256T\t\257\0\302\252%\202\253K\231\25\336Ba\377\220\206\v"..., 2139) = 2139
+read(3, "PK\3\4\24\0\0\0\10\0/t2M\177X\177Y\211\1\0\0\v\2\0\0\22\0\0\0th"..., 4096) = 4096
+lseek(3, 714843, SEEK_SET)              = 714843
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/sqlite3/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7fff7a6281b0) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/sqlite3/__init__.abi3.so", 0x7fff7a6281b0) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/sqlite3/__init__.so", 0x7fff7a6281b0) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/sqlite3/__init__.py", 0x7fff7a6281b0) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/sqlite3/__init__.pyc", {st_mode=S_IFREG|0644, st_size=181, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/sqlite3/__init__.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=181, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=181, ...}) = 0
+read(3, "3\r\r\nKP\233[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0@\0\0"..., 182) = 181
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/sqlite3", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/sqlite3", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/sqlite3", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/project/build/exe.linux-x86_64-3.6/lib/sqlite3", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 5 entries */, 32768)     = 136
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/sqlite3/dbapi2.pyc", {st_mode=S_IFREG|0644, st_size=2500, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/sqlite3/dbapi2.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2500, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2500, ...}) = 0
+read(3, "3\r\r\nKP\233[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 2501) = 2500
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 135168, SEEK_SET)              = 135168
+read(3, "SS\257\377\3\30\335M3\2707>_T\356\t\325\363W8\376\372\372\26\217\371x(.\35f\205"..., 2889) = 2889
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\30\34\234\202QN\0\0\7\322\0\0\f\0\0\0da"..., 4096) = 4096
+lseek(3, 142153, SEEK_SET)              = 142153
+read(3, "\355T\230_\252ol\226}\2170k>\254s\352\304\214\241\255\26\37(\22m\365\222T'Qs\340"..., 12288) = 12288
+read(3, "\n\367\255\366u\246\3\17\372\235\344qv\376W<\240sH\177%\314-\342}S\204\237MG\223Q"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+brk(0x5574064ac000)                     = 0x5574064ac000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e1b4000
+brk(0x557406493000)                     = 0x557406493000
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 135168, SEEK_SET)              = 135168
+read(3, "SS\257\377\3\30\335M3\2707>_T\356\t\325\363W8\376\372\372\26\217\371x(.\35f\205"..., 2889) = 2889
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\30\34\234\202QN\0\0\7\322\0\0\f\0\0\0da"..., 4096) = 4096
+lseek(3, 142153, SEEK_SET)              = 142153
+read(3, "\355T\230_\252ol\226}\2170k>\254s\352\304\214\241\255\26\37(\22m\365\222T'Qs\340"..., 12288) = 12288
+read(3, "\n\367\255\366u\246\3\17\372\235\344qv\376W<\240sH\177%\314-\342}S\204\237MG\223Q"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+brk(0x5574064bc000)                     = 0x5574064bc000
+brk(0x5574064b4000)                     = 0x5574064b4000
+brk(0x5574064b1000)                     = 0x5574064b1000
+brk(0x557406493000)                     = 0x557406493000
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\0"..., 4096) = 118
+lseek(3, -62, SEEK_CUR)                 = 56
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\0"..., 4096) = 62
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/math.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=136928, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/math.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340)\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=136928, ...}) = 0
+mmap(NULL, 2136648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f129c9a9000
+mprotect(0x7f129c9b1000, 2093056, PROT_NONE) = 0
+mmap(0x7f129cbb0000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f129cbb0000
+close(3)                                = 0
+mprotect(0x7f129cbb0000, 4096, PROT_READ) = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/_datetime.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=309016, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/_datetime.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300D\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=309016, ...}) = 0
+mmap(NULL, 2179344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f129c794000
+mprotect(0x7f129c7a6000, 2093056, PROT_NONE) = 0
+mmap(0x7f129c9a5000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x7f129c9a5000
+close(3)                                = 0
+mprotect(0x7f129c9a5000, 4096, PROT_READ) = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/collections/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7fff7a625ae0) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/collections/__init__.abi3.so", 0x7fff7a625ae0) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/collections/__init__.so", 0x7fff7a625ae0) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/collections/__init__.py", 0x7fff7a625ae0) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/collections/__init__.pyc", {st_mode=S_IFREG|0644, st_size=45845, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/collections/__init__.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=45845, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=45845, ...}) = 0
+read(3, "3\r\r\nKP\233[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0$\0\0\0@\0\0"..., 45846) = 45845
+read(3, "", 1)                          = 0
+close(3)                                = 0
+brk(0x5574064b4000)                     = 0x5574064b4000
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 364544, SEEK_SET)              = 364544
+read(3, "\265\217\265%\345\336\30m\3516LNR\364\356\200,u'\2126\206\24m\373\"e\24\371x(\276"..., 3297) = 3297
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\0204\25\n\207\23\0\0v6\0\0\f\0\0\0op"..., 4096) = 4096
+lseek(3, 371937, SEEK_SET)              = 371937
+read(3, "y\22w5\n\"\327e\312=\260+U~\242\221s\243\5,ty\24\322\350Y\6]\236\24\0056"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 364544, SEEK_SET)              = 364544
+read(3, "\265\217\265%\345\336\30m\3516LNR\364\356\200,u'\2126\206\24m\373\"e\24\371x(\276"..., 3297) = 3297
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\0204\25\n\207\23\0\0v6\0\0\f\0\0\0op"..., 4096) = 4096
+lseek(3, 371937, SEEK_SET)              = 371937
+read(3, "y\22w5\n\"\327e\312=\260+U~\242\221s\243\5,ty\24\322\350Y\6]\236\24\0056"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 327680, SEEK_SET)              = 327680
+read(3, "\t\263\235D3\247\347\32\332\374D,\4a.S\365\343r\264U\204\265\34\376\6\277\36\2159\344Z"..., 755) = 755
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\177|\27\354\252\4\0\0\2\7\0\0\v\0\0\0ke"..., 4096) = 4096
+lseek(3, 332531, SEEK_SET)              = 332531
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 327680, SEEK_SET)              = 327680
+read(3, "\t\263\235D3\247\347\32\332\374D,\4a.S\365\343r\264U\204\265\34\376\6\277\36\2159\344Z"..., 755) = 755
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\177|\27\354\252\4\0\0\2\7\0\0\v\0\0\0ke"..., 4096) = 4096
+lseek(3, 332531, SEEK_SET)              = 332531
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 262144, SEEK_SET)              = 262144
+read(3, "\260T\362\2\276\303\322\311\v\270\24S\340\205ep\310\342\200\246g*\16y\34\n8\240+\260\"\f"..., 1722) = 1722
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\234\351\277\35\24\30\0\0\3617\0\0\t\0\0\0he"..., 4096) = 4096
+lseek(3, 267962, SEEK_SET)              = 267962
+read(3, "\203\2021\224Cw\226\330r\374\216\227\fTR\264\tDO\247LD\24\4\24\32\341im\"rR"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 262144, SEEK_SET)              = 262144
+read(3, "\260T\362\2\276\303\322\311\v\270\24S\340\205ep\310\342\200\246g*\16y\34\n8\240+\260\"\f"..., 1722) = 1722
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\234\351\277\35\24\30\0\0\3617\0\0\t\0\0\0he"..., 4096) = 4096
+lseek(3, 267962, SEEK_SET)              = 267962
+read(3, "\203\2021\224Cw\226\330r\374\216\227\fTR\264\tDO\247LD\24\4\24\32\341im\"rR"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/_heapq.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=52784, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/_heapq.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\v\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=52784, ...}) = 0
+mmap(NULL, 2112936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f129c590000
+mprotect(0x7f129c592000, 2093056, PROT_NONE) = 0
+mmap(0x7f129c791000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f129c791000
+close(3)                                = 0
+mprotect(0x7f129c791000, 4096, PROT_READ) = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 540672, SEEK_SET)              = 540672
+read(3, "0\236\34\22\357U\fq\320k\270\222\10\306H0'<\0211\4\252\5\0173\342\36\23q[F]"..., 3710) = 3710
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\222\231\356\217\35\n\0\0005\25\0\0\v\0\0\0re"..., 4096) = 4096
+lseek(3, 548478, SEEK_SET)              = 548478
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 540672, SEEK_SET)              = 540672
+read(3, "0\236\34\22\357U\fq\320k\270\222\10\306H0'<\0211\4\252\5\0173\342\36\23q[F]"..., 3710) = 3710
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\222\231\356\217\35\n\0\0005\25\0\0\v\0\0\0re"..., 4096) = 4096
+lseek(3, 548478, SEEK_SET)              = 548478
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129c550000
+stat("/project/build/exe.linux-x86_64-3.6/lib/collections", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/collections", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/collections", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/project/build/exe.linux-x86_64-3.6/lib/collections", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 4 entries */, 32768)     = 112
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/collections/abc.pyc", {st_mode=S_IFREG|0644, st_size=212, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/collections/abc.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=212, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=212, ...}) = 0
+read(3, "3\r\r\nKP\233[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0@\0\0"..., 213) = 212
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/_sqlite3.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=328304, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/_sqlite3.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0Pp\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=328304, ...}) = 0
+mmap(NULL, 2175432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f129c33c000
+mprotect(0x7f129c34d000, 2093056, PROT_NONE) = 0
+mmap(0x7f129c54c000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7f129c54c000
+close(3)                                = 0
+open("build/exe.linux-x86_64-3.6/lib/tls/x86_64/libsqlite3.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/tls/libsqlite3.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/x86_64/libsqlite3.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/libsqlite3.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\326\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1078304, ...}) = 0
+getcwd("/project", 128)                 = 9
+mmap(NULL, 3175320, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f129c034000
+mprotect(0x7f129c137000, 2093056, PROT_NONE) = 0
+mmap(0x7f129c336000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x102000) = 0x7f129c336000
+mmap(0x7f129c33b000, 920, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f129c33b000
+close(3)                                = 0
+mprotect(0x7f129c336000, 12288, PROT_READ) = 0
+mprotect(0x7f129c54c000, 4096, PROT_READ) = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7fff7a6281b0) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/__init__.abi3.so", 0x7fff7a6281b0) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/__init__.so", 0x7fff7a6281b0) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/__init__.py", 0x7fff7a6281b0) = -1 ENOENT (No such file or directory)
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/__init__.pyc", {st_mode=S_IFREG|0644, st_size=9185, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/__init__.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=9185, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=9185, ...}) = 0
+read(3, "3\r\r\n\272\313:[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\26\0\0\0@\0\0"..., 9186) = 9185
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/project/build/exe.linux-x86_64-3.6/lib/yaml", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 19 entries */, 32768)    = 616
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/error.pyc", {st_mode=S_IFREG|0644, st_size=2273, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/error.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2273, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2273, ...}) = 0
+read(3, "3\r\r\n\350\f5[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 2274) = 2273
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/tokens.pyc", {st_mode=S_IFREG|0644, st_size=5216, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/tokens.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=5216, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=5216, ...}) = 0
+read(3, "3\r\r\n\350\f5[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 5217) = 5216
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/events.pyc", {st_mode=S_IFREG|0644, st_size=4059, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/events.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4059, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=4059, ...}) = 0
+read(3, "3\r\r\n\350\f5[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 4060) = 4059
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/nodes.pyc", {st_mode=S_IFREG|0644, st_size=1717, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/nodes.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1717, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1717, ...}) = 0
+read(3, "3\r\r\n\350\f5[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 1718) = 1717
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/loader.pyc", {st_mode=S_IFREG|0644, st_size=1520, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/loader.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1520, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1520, ...}) = 0
+read(3, "3\r\r\n!w:[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\t\0\0\0@\0\0"..., 1521) = 1520
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/reader.pyc", {st_mode=S_IFREG|0644, st_size=4473, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/reader.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4473, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=4473, ...}) = 0
+read(3, "3\r\r\n!w:[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 4474) = 4473
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 536576, SEEK_SET)              = 536576
+read(3, "w`\33\216\327\274k\353\213\213\213\266^\253\325$c\221\f\345\256<R!.#\231\316\266\22\333\216"..., 2102) = 2102
+read(3, "PK\3\4\24\0\0\0\10\0\0041.Mhn_'$\26\0\0\0077\0\0\6\0\0\0re"..., 4096) = 4096
+lseek(3, 542774, SEEK_SET)              = 542774
+read(3, "\r(\336\226\324\262\354\17\372F;\17\331\235\256k\317\30P\316\2\345?\205g\5\222\223\317\260=\203"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 536576, SEEK_SET)              = 536576
+read(3, "w`\33\216\327\274k\353\213\213\213\266^\253\325$c\221\f\345\256<R!.#\231\316\266\22\333\216"..., 2102) = 2102
+read(3, "PK\3\4\24\0\0\0\10\0\0041.Mhn_'$\26\0\0\0077\0\0\6\0\0\0re"..., 4096) = 4096
+lseek(3, 542774, SEEK_SET)              = 542774
+read(3, "\r(\336\226\324\262\354\17\372F;\17\331\235\256k\317\30P\316\2\345?\205g\5\222\223\317\260=\203"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 212992, SEEK_SET)              = 212992
+read(3, "\306\177\242\313h\376\21m\254\243,\17\343\243\"\331\"Vb\311\363\375\232\36\376w\327\242\260\261\247K"..., 3679) = 3679
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\260p \346\17(\0\0\213[\0\0\10\0\0\0en"..., 4096) = 4096
+lseek(3, 220767, SEEK_SET)              = 220767
+read(3, "\320({\350\22!\220w!\277vqx\17\207_\226\n@j\263$\3023_\220*\217\25N\216\211"..., 4096) = 4096
+read(3, "#\370\3GW\232\371\254\33R_\263_\n\375H\205\7\311\33\30,\306\344\3206Nv\245\372\23D"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+brk(0x5574064d8000)                     = 0x5574064d8000
+brk(0x5574064d6000)                     = 0x5574064d6000
+brk(0x5574064c1000)                     = 0x5574064c1000
+brk(0x5574064c0000)                     = 0x5574064c0000
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 212992, SEEK_SET)              = 212992
+read(3, "\306\177\242\313h\376\21m\254\243,\17\343\243\"\331\"Vb\311\363\375\232\36\376w\327\242\260\261\247K"..., 3679) = 3679
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\260p \346\17(\0\0\213[\0\0\10\0\0\0en"..., 4096) = 4096
+lseek(3, 220767, SEEK_SET)              = 220767
+read(3, "\320({\350\22!\220w!\277vqx\17\207_\226\n@j\263$\3023_\220*\217\25N\216\211"..., 4096) = 4096
+read(3, "#\370\3GW\232\371\254\33R_\263_\n\375H\205\7\311\33\30,\306\344\3206Nv\245\372\23D"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 749568, SEEK_SET)              = 749568
+read(3, "\271\276\245<\277\321k\342n\331\244c\264\252=\3311~\v\7\356\0362v\237\321\2\6<\247\266\""..., 2331) = 2331
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\257\37\253\251\307\16\0\0& \0\0\t\0\0\0ty"..., 4096) = 4096
+lseek(3, 755995, SEEK_SET)              = 755995
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 749568, SEEK_SET)              = 749568
+read(3, "\271\276\245<\277\321k\342n\331\244c\264\252=\3311~\v\7\356\0362v\237\321\2\6<\247\266\""..., 2331) = 2331
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\257\37\253\251\307\16\0\0& \0\0\t\0\0\0ty"..., 4096) = 4096
+lseek(3, 755995, SEEK_SET)              = 755995
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 225280, SEEK_SET)              = 225280
+read(3, "\10\321\377\307lP@\215#w\\\3741\204\215ba\210\232\27\265\4\200\214\260\21\277\237Y\2\206\344"..., 3329) = 3329
+read(3, "PK\3\4\24\0\0\0\10\0\0041.MU*\250\264\245'\0\0\224]\0\0\r\0\0\0fu"..., 4096) = 4096
+lseek(3, 232705, SEEK_SET)              = 232705
+read(3, "s\207\34E4\351*l\34(eB\240\247\327\371\303\227)\274\340\366\351\263\277\271\rGUW\332\253"..., 4096) = 4096
+read(3, "\326\206\370=,\331\2027#x\n\225\345tU\246B\374\200(!H\35\n\204\372b#\255)\236\221"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129bff4000
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 225280, SEEK_SET)              = 225280
+read(3, "\10\321\377\307lP@\215#w\\\3741\204\215ba\210\232\27\265\4\200\214\260\21\277\237Y\2\206\344"..., 3329) = 3329
+read(3, "PK\3\4\24\0\0\0\10\0\0041.MU*\250\264\245'\0\0\224]\0\0\r\0\0\0fu"..., 4096) = 4096
+lseek(3, 232705, SEEK_SET)              = 232705
+read(3, "s\207\34E4\351*l\34(eB\240\247\327\371\303\227)\274\340\366\351\263\277\271\rGUW\332\253"..., 4096) = 4096
+read(3, "\326\206\370=,\331\2027#x\n\225\345tU\246B\374\200(!H\35\n\204\372b#\255)\236\221"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 761856, SEEK_SET)              = 761856
+read(3, "\10\345\257\276\246%Vg\32H\300\352\34\32\24\201?\354u[\376\0\370\300\202\tr\340\333\v\3'"..., 2607) = 2607
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\314\211vbe\34\0\0\344J\0\0\v\0\0\0we"..., 4096) = 4096
+lseek(3, 768559, SEEK_SET)              = 768559
+read(3, "\221)\320\325\374\262\341?\216J\313S$+*\310\f\312\t\26\16q\341\v\26\16q\321\v\26\16\305"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 761856, SEEK_SET)              = 761856
+read(3, "\10\345\257\276\246%Vg\32H\300\352\34\32\24\201?\354u[\376\0\370\300\202\tr\340\333\v\3'"..., 2607) = 2607
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\314\211vbe\34\0\0\344J\0\0\v\0\0\0we"..., 4096) = 4096
+lseek(3, 768559, SEEK_SET)              = 768559
+read(3, "\221)\320\325\374\262\341?\216J\313S$+*\310\f\312\t\26\16q\341\v\26\16q\321\v\26\16\305"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+brk(0x5574064e8000)                     = 0x5574064e8000
+brk(0x5574064df000)                     = 0x5574064df000
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 598016, SEEK_SET)              = 598016
+read(3, "\310\374e\6\3763\23\360\213`s*\360V\6xt'G\357\313T\206\314\253\321JL\177\200+\274"..., 3232) = 3232
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\v[\4\376!\25\0\0C(\0\0\17\0\0\0sr"..., 4096) = 4096
+lseek(3, 605344, SEEK_SET)              = 605344
+read(3, "\217E\36\271T\372\2321(M\2736\0\307\202(\37KLL\317nv\217\20.\231\253\300l\343\25"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 598016, SEEK_SET)              = 598016
+read(3, "\310\374e\6\3763\23\360\213`s*\360V\6xt'G\357\313T\206\314\253\321JL\177\200+\274"..., 3232) = 3232
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\v[\4\376!\25\0\0C(\0\0\17\0\0\0sr"..., 4096) = 4096
+lseek(3, 605344, SEEK_SET)              = 605344
+read(3, "\217E\36\271T\372\2321(M\2736\0\307\202(\37KLL\317nv\217\20.\231\253\300l\343\25"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 606208, SEEK_SET)              = 606208
+read(3, "?\334\376\r\304KV\313\243\327{#\3526<w\363\366\324\264\370\227\r\330\333I\336\246!,\273M"..., 3307) = 3307
+read(3, "PK\3\4\24\0\0\0\10\0\0041.MH\322\246\237\16&\0\0\243O\0\0\r\0\0\0sr"..., 4096) = 4096
+lseek(3, 613611, SEEK_SET)              = 613611
+read(3, "\10{\33\2-\341\367o\247<:\212\263\225\222\343\24E\273\303(\"&H\32Z\240/4\362o4"..., 4096) = 4096
+read(3, "?K\304C\201T\270\206\357\7kHY\20B\356\364\300z\242\334\0)QT\300\201S\212\352\275\36"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 606208, SEEK_SET)              = 606208
+read(3, "?\334\376\r\304KV\313\243\327{#\3526<w\363\366\324\264\370\227\r\330\333I\336\246!,\273M"..., 3307) = 3307
+read(3, "PK\3\4\24\0\0\0\10\0\0041.MH\322\246\237\16&\0\0\243O\0\0\r\0\0\0sr"..., 4096) = 4096
+lseek(3, 613611, SEEK_SET)              = 613611
+read(3, "\10{\33\2-\341\367o\247<:\212\263\225\222\343\24E\273\303(\"&H\32Z\240/4\362o4"..., 4096) = 4096
+read(3, "?K\304C\201T\270\206\357\7kHY\20B\356\364\300z\242\334\0)QT\300\201S\212\352\275\36"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 606208, SEEK_SET)              = 606208
+read(3, "?\334\376\r\304KV\313\243\327{#\3526<w\363\366\324\264\370\227\r\330\333I\336\246!,\273M"..., 494) = 494
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\274\372\271\21\316\n\0\0q\27\0\0\21\0\0\0sr"..., 4096) = 4096
+lseek(3, 610798, SEEK_SET)              = 610798
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 606208, SEEK_SET)              = 606208
+read(3, "?\334\376\r\304KV\313\243\327{#\3526<w\363\366\324\264\370\227\r\330\333I\336\246!,\273M"..., 494) = 494
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\274\372\271\21\316\n\0\0q\27\0\0\21\0\0\0sr"..., 4096) = 4096
+lseek(3, 610798, SEEK_SET)              = 610798
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 135168, SEEK_SET)              = 135168
+read(3, "SS\257\377\3\30\335M3\2707>_T\356\t\325\363W8\376\372\372\26\217\371x(.\35f\205"..., 495) = 495
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\222\264w\3251\t\0\0\261\20\0\0\v\0\0\0co"..., 4096) = 4096
+lseek(3, 139759, SEEK_SET)              = 139759
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 135168, SEEK_SET)              = 135168
+read(3, "SS\257\377\3\30\335M3\2707>_T\356\t\325\363W8\376\372\372\26\217\371x(.\35f\205"..., 495) = 495
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\222\264w\3251\t\0\0\261\20\0\0\v\0\0\0co"..., 4096) = 4096
+lseek(3, 139759, SEEK_SET)              = 139759
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+brk(0x55740650e000)                     = 0x55740650e000
+brk(0x5574064ee000)                     = 0x5574064ee000
+brk(0x55740651e000)                     = 0x55740651e000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129bfb4000
+brk(0x5574064ee000)                     = 0x5574064ee000
+munmap(0x7f129bfb4000, 262144)          = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/scanner.pyc", {st_mode=S_IFREG|0644, st_size=26069, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/scanner.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=26069, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=26069, ...}) = 0
+read(3, "3\r\r\n!w:[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 26070) = 26069
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129bfb4000
+munmap(0x7f129bfb4000, 262144)          = 0
+mmap(NULL, 299008, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129bfab000
+munmap(0x7f129e234000, 151552)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129bf6b000
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/parser.pyc", {st_mode=S_IFREG|0644, st_size=11893, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/parser.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=11893, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=11893, ...}) = 0
+read(3, "3\r\r\n\350\f5[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 11894) = 11893
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/composer.pyc", {st_mode=S_IFREG|0644, st_size=3520, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/composer.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3520, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3520, ...}) = 0
+read(3, "3\r\r\n!w:[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 3521) = 3520
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/constructor.pyc", {st_mode=S_IFREG|0644, st_size=18822, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/constructor.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=18822, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=18822, ...}) = 0
+read(3, "3\r\r\n\350\f5[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 18823) = 18822
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 69632, SEEK_SET)               = 69632
+read(3, "\204,@3\205\251\300=\1\235\\8J\307\243\234\16\363\33\263\276g\177~1~xD\34o\215\212"..., 3155) = 3155
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\26)\rh\213\35\0\0\fC\0\0\n\0\0\0ba"..., 4096) = 4096
+lseek(3, 76883, SEEK_SET)               = 76883
+read(3, "D\302\277\35f\240\3465f\371\32\313\335\6\336yWE\252\237\323\230\215Q\37\230;\37\232\267a."..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 69632, SEEK_SET)               = 69632
+read(3, "\204,@3\205\251\300=\1\235\\8J\307\243\234\16\363\33\263\276g\177~1~xD\34o\215\212"..., 3155) = 3155
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\26)\rh\213\35\0\0\fC\0\0\n\0\0\0ba"..., 4096) = 4096
+lseek(3, 76883, SEEK_SET)               = 76883
+read(3, "D\302\277\35f\240\3465f\371\32\313\335\6\336yWE\252\237\323\230\215Q\37\230;\37\232\267a."..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 643072, SEEK_SET)              = 643072
+read(3, "\222\232\236\237;\260\"\342\367U\304\6\345\356K\234\343\26636i\267\325\"\0341C\276\212`m\300"..., 807) = 807
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\334v\323\320\6\1\0\0U\1\0\0\n\0\0\0st"..., 4096) = 4096
+lseek(3, 647975, SEEK_SET)              = 647975
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/library.zip", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=807258, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129e39f000
+lseek(3, 643072, SEEK_SET)              = 643072
+read(3, "\222\232\236\237;\260\"\342\367U\304\6\345\356K\234\343\26636i\267\325\"\0341C\276\212`m\300"..., 807) = 807
+read(3, "PK\3\4\24\0\0\0\10\0\0041.M\334v\323\320\6\1\0\0U\1\0\0\n\0\0\0st"..., 4096) = 4096
+lseek(3, 647975, SEEK_SET)              = 647975
+close(3)                                = 0
+munmap(0x7f129e39f000, 4096)            = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/_struct.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=138472, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/_struct.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300,\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=138472, ...}) = 0
+mmap(NULL, 2137928, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f129bd61000
+mprotect(0x7f129bd69000, 2093056, PROT_NONE) = 0
+mmap(0x7f129bf68000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f129bf68000
+close(3)                                = 0
+mprotect(0x7f129bf68000, 4096, PROT_READ) = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/binascii.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=87056, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/binascii.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=87056, ...}) = 0
+mmap(NULL, 2120760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f129bb5b000
+mprotect(0x7f129bb60000, 2093056, PROT_NONE) = 0
+mmap(0x7f129bd5f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f129bd5f000
+close(3)                                = 0
+mprotect(0x7f129bd5f000, 4096, PROT_READ) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/resolver.pyc", {st_mode=S_IFREG|0644, st_size=5464, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/resolver.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=5464, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=5464, ...}) = 0
+read(3, "3\r\r\n\350\f5[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0@\0\0"..., 5465) = 5464
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129bb1b000
+munmap(0x7f129bb1b000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129bb1b000
+munmap(0x7f129bb1b000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129bb1b000
+munmap(0x7f129bb1b000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f129bb1b000
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/dumper.pyc", {st_mode=S_IFREG|0644, st_size=2011, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/dumper.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2011, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2011, ...}) = 0
+read(3, "3\r\r\n!w:[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0@\0\0"..., 2012) = 2011
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/emitter.pyc", {st_mode=S_IFREG|0644, st_size=25366, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/emitter.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=25366, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=25366, ...}) = 0
+read(3, "3\r\r\n!w:[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 25367) = 25366
+read(3, "", 1)                          = 0
+close(3)                                = 0
+brk(0x55740650f000)                     = 0x55740650f000
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/serializer.pyc", {st_mode=S_IFREG|0644, st_size=3353, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/serializer.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3353, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3353, ...}) = 0
+read(3, "3\r\r\n\350\f5[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 3354) = 3353
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/representer.pyc", {st_mode=S_IFREG|0644, st_size=10100, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/representer.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=10100, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=10100, ...}) = 0
+read(3, "3\r\r\n!w:[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 10101) = 10100
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/yaml/cyaml.pyc", {st_mode=S_IFREG|0644, st_size=2976, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/yaml/cyaml.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2976, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2976, ...}) = 0
+read(3, "3\r\r\n!w:[\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0@\0\0"..., 2977) = 2976
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/project/build/exe.linux-x86_64-3.6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/project/build/exe.linux-x86_64-3.6/lib/_yaml.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=1169288, ...}) = 0
+open("/project/build/exe.linux-x86_64-3.6/lib/_yaml.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320b\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1169288, ...}) = 0
+mmap(NULL, 2348736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f129b8dd000
+mprotect(0x7f129b917000, 2093056, PROT_NONE) = 0
+mmap(0x7f129bb16000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x39000) = 0x7f129bb16000
+mmap(0x7f129bb1a000, 1728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f129bb1a000
+close(3)                                = 0
+open("build/exe.linux-x86_64-3.6/lib/tls/x86_64/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/tls/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/x86_64/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("build/exe.linux-x86_64-3.6/lib/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/vuser/.pyenv/versions/3.6.6/lib/tls/x86_64/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/vuser/.pyenv/versions/3.6.6/lib/tls/x86_64", 0x7fff7a625e80) = -1 ENOENT (No such file or directory)
+open("/home/vuser/.pyenv/versions/3.6.6/lib/tls/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/vuser/.pyenv/versions/3.6.6/lib/tls", 0x7fff7a625e80) = -1 ENOENT (No such file or directory)
+open("/home/vuser/.pyenv/versions/3.6.6/lib/x86_64/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/vuser/.pyenv/versions/3.6.6/lib/x86_64", 0x7fff7a625e80) = -1 ENOENT (No such file or directory)
+open("/home/vuser/.pyenv/versions/3.6.6/lib/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/vuser/.pyenv/versions/3.6.6/lib", 0x7fff7a625e80) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=6938, ...}) = 0
+mmap(NULL, 6938, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f129e39e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/tls/x86_64/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/tls/x86_64", 0x7fff7a625e80) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/tls/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/tls", 0x7fff7a625e80) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/x86_64/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/x86_64", 0x7fff7a625e80) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/x86_64-linux-gnu/tls/x86_64/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/tls/x86_64", 0x7fff7a625e80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/tls/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/tls", 0x7fff7a625e80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/x86_64/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/x86_64", 0x7fff7a625e80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/lib/tls/x86_64/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/tls/x86_64", 0x7fff7a625e80) = -1 ENOENT (No such file or directory)
+open("/lib/tls/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/tls", 0x7fff7a625e80)        = -1 ENOENT (No such file or directory)
+open("/lib/x86_64/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64", 0x7fff7a625e80)     = -1 ENOENT (No such file or directory)
+open("/lib/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/tls/x86_64/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/tls/x86_64", 0x7fff7a625e80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/tls/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/tls", 0x7fff7a625e80)    = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64", 0x7fff7a625e80) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libyaml-0.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+munmap(0x7f129e39e000, 6938)            = 0
+munmap(0x7f129b8dd000, 2348736)         = 0
+write(1, "Hello, World!\n", 14Hello, World!
+)         = 14
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f129df74890}, {0x557404798af0, [], SA_RESTORER, 0x7f129df74890}, 8) = 0
+sigaltstack(NULL, {ss_sp=0x557406420c60, ss_flags=0, ss_size=8192}) = 0
+sigaltstack({ss_sp=0, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
